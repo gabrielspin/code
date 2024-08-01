@@ -98,7 +98,6 @@
             this.timeBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.timeBox.DecimalPlaces = 2;
             this.timeBox.Location = new System.Drawing.Point(271, 12);
             this.timeBox.Maximum = new decimal(new int[] {
             600,
@@ -247,6 +246,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(141, 21);
             this.comboBox1.TabIndex = 19;
+            this.comboBox1.Visible = false;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
@@ -257,6 +257,7 @@
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 20;
             this.label1.Text = "Aplicação:";
+            this.label1.Visible = false;
             // 
             // Form1
             // 

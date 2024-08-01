@@ -17,6 +17,7 @@ namespace Meus_testes
         bool loadAplicationComboBox = false;
         bool fileReady = false;
 
+
         public Form1()
         {
             InitializeComponent();

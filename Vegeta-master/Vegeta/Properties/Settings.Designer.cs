@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Meus_testes.Properties
+namespace Vegeta.Properties
 {
 
 

@@ -7,9 +7,9 @@ using System.Globalization;
 using System.Collections.Generic;
 
 
-namespace Meus_testes
+namespace Vegeta
 {
-    public partial class Form1 : Form
+    public partial class FormMaster : Form
     {
         // global variables
         string filePath;
@@ -18,7 +18,7 @@ namespace Meus_testes
         bool fileReady = false;
 
 
-        public Form1()
+        public FormMaster()
         {
             InitializeComponent();
         }

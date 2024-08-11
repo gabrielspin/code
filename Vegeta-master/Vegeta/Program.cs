@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Security;
 
-namespace Meus_testes
+namespace Vegeta
 {
     internal static class Program
     {
@@ -18,7 +18,7 @@ namespace Meus_testes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMaster());
         }
     }
 }

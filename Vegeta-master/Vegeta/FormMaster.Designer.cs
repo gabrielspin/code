@@ -1,6 +1,6 @@
-﻿namespace Meus_testes
+﻿namespace Vegeta
 {
-    partial class Form1
+    partial class FormMaster
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMaster));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.buttonAbrirArquivo = new System.Windows.Forms.Button();
             this.labelFilePath = new System.Windows.Forms.Label();

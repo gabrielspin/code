@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.ComponentModel;
 using System.Windows.Forms;
 using System.IO;
 using System.Globalization;
@@ -16,7 +14,6 @@ namespace Vegeta
         List<string> aplicationsList = new List<string>();
         bool loadAplicationComboBox = false;
         bool fileReady = false;
-
 
         public FormMaster()
         {
@@ -87,8 +84,6 @@ namespace Vegeta
             {
                 fileReady = false;
                 aplicationsList.Sort();
-                //comboBox1.Text = "";
-                //comboBox1.Items.Clear();
                 comboBox1.Items.Add("");
 
                 foreach (string _aplication in aplicationsList)

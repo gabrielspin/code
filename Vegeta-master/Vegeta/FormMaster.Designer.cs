@@ -35,7 +35,6 @@
             this.labelCount = new System.Windows.Forms.Label();
             this.timeBox = new System.Windows.Forms.NumericUpDown();
             this.labelTime = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Col_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Col_Datetime = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,7 +51,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.timeBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             this.SuspendLayout();
@@ -116,16 +114,6 @@
             this.labelTime.Size = new System.Drawing.Size(253, 13);
             this.labelTime.TabIndex = 10;
             this.labelTime.Text = "Tempo mínimo da duração do processo (segundos):";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(954, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 36);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
@@ -259,7 +247,7 @@
             this.label1.Text = "Aplicação:";
             this.label1.Visible = false;
             // 
-            // Form1
+            // FormMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -270,7 +258,6 @@
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.button_Refresh);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelTime);
             this.Controls.Add(this.timeBox);
             this.Controls.Add(this.labelCount);
@@ -278,10 +265,9 @@
             this.Controls.Add(this.buttonAbrirArquivo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "FormMaster";
             this.Text = "Vegeta";
             ((System.ComponentModel.ISupportInitialize)(this.timeBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             this.ResumeLayout(false);
@@ -296,7 +282,6 @@
         private System.Windows.Forms.Label labelCount;
         private System.Windows.Forms.NumericUpDown timeBox;
         private System.Windows.Forms.Label labelTime;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Data.DataSet dataSet1;
         private System.Windows.Forms.Button button_Refresh;

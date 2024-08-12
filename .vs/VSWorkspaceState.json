@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Vegeta-master",
+    "\\Vegeta-master\\Vegeta",
+    "\\Vegeta-master\\Vegeta\\Properties"
   ],
-  "SelectedNode": "\\Vegeta.sln",
+  "SelectedNode": "\\Vegeta-master\\Vegeta\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
